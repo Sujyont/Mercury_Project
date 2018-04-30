@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Casualty_HongKong(failed)">
+    <classes>
+      <class name="LOB.Casualty.Casualty_HongKong">
+        <methods>
+          <include name="checkCaseToRun"/>
+          <include name="SuiteOneCaseTwoTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="closeBrowser"/>
+          <include name="reporterDataResults"/>
+          <include name="setUp"/>
+          <include name="checkSuiteToRun"/>
+        </methods>
+      </class> <!-- LOB.Casualty.Casualty_HongKong -->
+    </classes>
+  </test> <!-- Casualty_HongKong(failed) -->
+</suite> <!-- Failed suite [Suite] -->

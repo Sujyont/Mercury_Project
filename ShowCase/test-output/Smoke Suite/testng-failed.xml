@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke Suite]">
+  <test name="HealthCare_US(failed)">
+    <classes>
+      <class name="LOB.HealthCare.HealthCare_US">
+        <methods>
+          <include name="checkSuiteToRun"/>
+          <include name="tearDown"/>
+          <include name="checkCaseToRun"/>
+          <include name="SuiteOneCaseTwoTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+          <include name="reporterDataResults"/>
+        </methods>
+      </class> <!-- LOB.HealthCare.HealthCare_US -->
+    </classes>
+  </test> <!-- HealthCare_US(failed) -->
+  <test name="Property_US(failed)">
+    <classes>
+      <class name="LOB.Property.Property_US">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="reporterDataResults"/>
+          <include name="checkSuiteToRun"/>
+          <include name="checkCaseToRun"/>
+          <include name="SuiteOneCaseTwoTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- LOB.Property.Property_US -->
+    </classes>
+  </test> <!-- Property_US(failed) -->
+</suite> <!-- Failed suite [Smoke Suite] -->

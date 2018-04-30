@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [crossBrowser]" parallel="tests">
+  <test name="Chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="MercuryTest.MercuryTour">
+        <methods>
+          <include name="checkCaseToRun"/>
+          <include name="closeBrowser"/>
+          <include name="reporterDataResults"/>
+          <include name="mercuryTour"/>
+          <include name="checkSuiteToRun"/>
+        </methods>
+      </class> <!-- MercuryTest.MercuryTour -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+  <test name="Mozilla Test(failed)" parallel="tests">
+    <parameter name="browser" value="Mozilla"/>
+    <classes>
+      <class name="MercuryTest.MercuryTour">
+        <methods>
+          <include name="checkCaseToRun"/>
+          <include name="closeBrowser"/>
+          <include name="reporterDataResults"/>
+          <include name="mercuryTour"/>
+          <include name="checkSuiteToRun"/>
+        </methods>
+      </class> <!-- MercuryTest.MercuryTour -->
+    </classes>
+  </test> <!-- Mozilla Test(failed) -->
+  <test name="Internet Explorer Test(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="MercuryTest.MercuryTour">
+        <methods>
+          <include name="checkCaseToRun"/>
+          <include name="closeBrowser"/>
+          <include name="reporterDataResults"/>
+          <include name="mercuryTour"/>
+          <include name="checkSuiteToRun"/>
+        </methods>
+      </class> <!-- MercuryTest.MercuryTour -->
+    </classes>
+  </test> <!-- Internet Explorer Test(failed) -->
+</suite> <!-- Failed suite [crossBrowser] -->
